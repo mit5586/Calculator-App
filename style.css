@@ -1,0 +1,87 @@
+:root {
+    --btn-aapl-gray: #9f9f9f;
+    --btn-aapl-black: #313131;
+    --btn-aapl-orange: #f69906;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-color: darkslategray;
+}
+
+.btn{
+    width: 65px;
+    height: 65px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: var(--btn-aapl-black);
+    color: whitesmoke;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    gap: 0.5rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    padding-inline: 0.5rem;
+}
+
+.input{
+    width: 98%;
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+    margin-top: 2.5rem;
+    
+}
+
+.input > input{
+    background-color: black;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: 24px;
+    height: 1rem;
+    text-align: right;
+}
+
+.calc{
+    background-color: black;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 	43.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-gray{
+    background-color: #9f9f9f;
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.btn-orange{
+    background-color: #f69906;
+}
+
+.btn-big{
+    width: 138px;
+    border-radius: 48px;
+    text-align: left;
+    padding-left: 1.5rem;
+
+}
